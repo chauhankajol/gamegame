@@ -7,7 +7,9 @@ import { Gameplay } from "./component/Gameplay"
 
 
 function App() {
- const[ isstarted,setIstarted]=useState(false)
+ const[ isstarted,setIstarted]=useState(false
+  
+ )
  const toggle=()=>{
   setIstarted((prev)=>!prev)
  }
